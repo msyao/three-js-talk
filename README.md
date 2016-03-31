@@ -16,7 +16,7 @@
 
 [Three.js](threejs.org) is a cross-browser JavaScript library/API used to create and display animated 3D computer graphics. Three.js uses WebGL to render graphics. Due to its low level complexity and abstraction, it doesn't require as much of learning curve as WebGL. Its easy-to-use libraries handle the complexities of WebGL animations. A basic cube in raw WebGL would be written in hundreds of lines of Javascript and shader code, while a Three.js equivalent is only a fraction of that.
 
--   In Mr.Doob's own words, the lowdown and goals of [Three.js](https://github.com/mrdoob/three.js/issues/1960).
+-   In Mr.Doob's own words, the lowdown of [Three.js](https://github.com/mrdoob/three.js/issues/1960).
 
 #### Install Three.js
 
@@ -28,6 +28,7 @@
 -   [Tunnel](http://www.yeahbutisitflash.com/projects/tunnels/tunnel-1/)
 -   [HI-RES](http://void.hi-res.net/)
 -   [Chrome Web Lab](http://www.chromeweblab.com/)
+-   [More examples](http://tutorialzine.com/2013/09/20-impressive-examples-for-learning-webgl-with-three-js/)
 
 You should poke around the [Three.js](threejs.org) website to read the docs and play with the [editor](threejs.org/editor).
 
@@ -36,3 +37,4 @@ You should poke around the [Three.js](threejs.org) website to read the docs and 
 -   [Practical Guide To Three.js](http://www.awwwards.com/creating-3d-cube-a-practical-guide-to-three-js-with-live-demo.html)
 -   [Getting Started With Three.js](https://aerotwist.com/tutorials/getting-started-with-three-js/)
 -   [Basics Of Three.js](http://fhtr.org/BasicsOfThreeJS/)
+-   [Getting Started Slides](https://docs.google.com/presentation/d/1EiEon34d0jHJcgPN8surR6t9orAXtJKdbH73llGDRAE/)
