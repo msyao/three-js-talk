@@ -39,7 +39,7 @@
     // texture of 3D object that will be painted on shapes
     material = new THREE.MeshBasicMaterial( { color: 0xff0000, wireframe: true } );
 
-    mesh = new THREE.Mesh( geometry, material );
+    mesh = new THREE.Mesh( geometry, material ); //constructor function
     // mesh takes geometry, applies material to it
     scene.add( mesh );
 
@@ -48,6 +48,7 @@
     // set size to render app in size of the window
     renderer.setSize( window.innerWidth, window.innerHeight );
 
+    // attach the object to the DOM
     document.body.appendChild( renderer.domElement );
 
   }
