@@ -16,6 +16,8 @@
 
 [Three.js](threejs.org) is a cross-browser JavaScript library/API used to create and display animated 3D computer graphics. Three.js uses WebGL to render graphics. Due to its low level complexity and abstraction, it doesn't require as much of learning curve as WebGL. Its easy-to-use libraries handle the complexities of WebGL animations. A basic cube in raw WebGL would be written in hundreds of lines of Javascript and shader code, while a Three.js equivalent is only a fraction of that.
 
+-   In Mr.Doob's own words, the lowdown and goals of [Three.js](https://github.com/mrdoob/three.js/issues/1960).
+
 #### Install Three.js
 
 [Three.js Github Repo](https://github.com/mrdoob/three.js)
