@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Yao-Three.js</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+		</style>
+</head>
+<body>
+
+  <script src="build/three.min.js"></script>
+
+  <script>
+
+  var scene, camera, renderer;
+  var geometry, material, mesh;
+
+  init();
+  animate();
+
+  function init() {
+    //set up a scene
+    scene = new THREE.Scene();
+
+    camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 10000 );
+    // 75 is field of view
+    // next aspect ratio - width/height
+    // 1 is the near clipping plane
+    // 10000 is the far clipping plane
+    // objects further away from the camera than the value of far or closer than near won't be rendered
+
+    camera.position.z = 1000; // the camera starts at 0,0,0 so pull it back
+
+    geometry = new THREE.BoxGeometry( 300, 300, 300 ); // # = size
+
+    // texture of 3D object that will be painted on shapes
+    material = new THREE.MeshBasicMaterial( { color: 0xff0000, wireframe: true } );
+
+    mesh = new THREE.Mesh( geometry, material );
+    // mesh takes geometry, applies material to it
+    scene.add( mesh );
+
+    // magic happens here
+    renderer = new THREE.WebGLRenderer();
+    // set size to render app in size of the window
+    renderer.setSize( window.innerWidth, window.innerHeight );
+
+    document.body.appendChild( renderer.domElement );
+
+  }
+
+  function animate() {
+
+    requestAnimationFrame( animate );
+
+    mesh.rotation.x += 0.02; // speed of rotation
+    mesh.rotation.y += 0.01;
+
+    renderer.render( scene, camera );
+
+  }
+
+  </script>
+
+</body>
+</html>
