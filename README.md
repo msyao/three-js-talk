@@ -18,7 +18,7 @@
 
 #### Install Three.js
 
-[Three.js Github Repo](https://github.com/mrdoob/three.js). CSS preprocessors
+[Three.js Github Repo](https://github.com/mrdoob/three.js)
 
 #### Examples of Three.js:
 
