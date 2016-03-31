@@ -25,7 +25,7 @@
 -   [Nyan Cat](http://cwacht.github.io/nyancat/)
 -   [Tunnel](http://www.yeahbutisitflash.com/projects/tunnels/tunnel-1/)
 -   [HI-RES](http://void.hi-res.net/)
--   [Improve Your Markup by Extending Classes](https://coderwall.com/p/wixovg/bootstrap-without-all-the-debt)
+-   [Chrome Web Lab](http://www.chromeweblab.com/)
 
 You should poke around the [Three.js](threejs.org) website to read the docs and play with the [editor](threejs.org/editor).
 
@@ -33,4 +33,4 @@ You should poke around the [Three.js](threejs.org) website to read the docs and 
 
 -   [Practical Guide To Three.js](http://www.awwwards.com/creating-3d-cube-a-practical-guide-to-three-js-with-live-demo.html)
 -   [Getting Started With Three.js](https://aerotwist.com/tutorials/getting-started-with-three-js/)
-# three-js-talk
+-   [Basics Of Three.js](http://fhtr.org/BasicsOfThreeJS/)
